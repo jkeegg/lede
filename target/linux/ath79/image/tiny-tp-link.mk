@@ -227,7 +227,7 @@ define Device/tplink_tl-wr703n
   $(Device/tplink-16mlzma)
   SOC := ar9331
   DEVICE_MODEL := TL-WR703N
-  DEVICE_PACKAGES := kmod-usb-core kmod-usb2
+  DEVICE_PACKAGES := kmod-usb-chipidea2
   TPLINK_HWID := 0x07030101
   SUPPORTED_DEVICES += tl-wr703n
 endef
