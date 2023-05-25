@@ -8,8 +8,15 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=openssl
+<<<<<<< HEAD
 PKG_VERSION:=3.0.8
 PKG_RELEASE:=4
+=======
+PKG_BASE:=1.1.1
+PKG_BUGFIX:=t
+PKG_VERSION:=$(PKG_BASE)$(PKG_BUGFIX)
+PKG_RELEASE:=2
+>>>>>>> upstream/master
 PKG_USE_MIPS16:=0
 
 PKG_BUILD_PARALLEL:=1
